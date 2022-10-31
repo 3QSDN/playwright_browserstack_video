@@ -25,7 +25,6 @@ const caps = {
 
 exports.bsLocal = new BrowserStackLocal.Local()
 
-// replace iFHDbpqBDEXXkp4Avnhq with your key. You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
 exports.BS_LOCAL_ARGS = {
   key: process.env.BROWSERSTACK_ACCESS_KEY || '--enter access key here--',
 }
