@@ -27,7 +27,7 @@ exports.bsLocal = new BrowserStackLocal.Local()
 
 // replace iFHDbpqBDEXXkp4Avnhq with your key. You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
 exports.BS_LOCAL_ARGS = {
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'iFHDbpqBDEXXkp4Avnhq',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || '--enter access key here--',
 }
 
 // Patching the capabilities dynamically according to the project name.
